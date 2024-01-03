@@ -1,14 +1,13 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_node - function that creates a binary tree
+ * binary_tree_node - Function that creates a binary tree node.
+ * @parent: A pointer to the parent of the node to create.
+ * @value: The value to put in the new node.
  *
- * @parent: Pointer to the parent node of the node to create 
- * @value: The value to put in the new node
- *
- * return - A pointer to the new node or NULL on failure
+ * Return: A pointer to the new node
+ *         Otherwise - NULL on failure
  */
-
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
